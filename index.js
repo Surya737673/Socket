@@ -52,7 +52,6 @@ io.on("connection", (socket) => {
       receiverId,
       text,
       images,
-      // Additional properties as needed
     };
 
     const user = getUser(receiverId);
